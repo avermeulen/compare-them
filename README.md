@@ -8,11 +8,11 @@ The API takes parameter like this
 
 {
   "textOne" : {
-    "id" : "",
+    "baseTextId" : "",
     "text" : "The text to compare"
   },
   "textTwo" : {
-    "id" : "",
+    "compareToTextId" : "",
     "text" : "The text to compare"
   }
 }
@@ -23,11 +23,11 @@ It returns :
 
 ```json
 {
-  "similarity" : 0.670
+  "similarityRating" : 0.670
 }
 ```
 
-The more similar two pieces of text is the the closer the number is to 1.
+The more similar two pieces of text is the the closer the similarityRating number is to 1.
 
 ## Module to use
 
@@ -47,7 +47,7 @@ A compare all API endpoint, that compares one string against a list of strings r
 
 {
   "text" : {
-    "id" : "",
+    "baseTextId" : "",
     "text" : "The text to compare"
   },
   compareTo : [{
@@ -65,9 +65,9 @@ It returns something like :
 
 ```json
 {
-  idOne : "",
-  idTwo : "",
-  similarity : 0.670
+  baseTextId : "",
+  mostSimilarTextId : "",
+  similarityRating : 0.670
 }
 ```
 
