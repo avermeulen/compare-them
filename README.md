@@ -50,7 +50,7 @@ A compare all API endpoint, that compares one string against a list of strings r
     "baseTextId" : "",
     "text" : "The text to compare"
   },
-  compareTo : [{
+  "compareTo" : [{
     "id" : "one-12",
     "text" : "The text to compare"
   },
