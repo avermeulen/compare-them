@@ -46,17 +46,17 @@ A compare all API endpoint, that compares one string against a list of strings r
 ```json
 
 {
-  text : {
-    id : "",
-    text : "The text to compare"
+  "text" : {
+    "id" : "",
+    "text" : "The text to compare"
   },
   compareTo : [{
-    id : "one-12",
-    text : "The text to compare"
+    "id" : "one-12",
+    "text" : "The text to compare"
   },
   {
-    id : "one-26",
-    text : "Other text to compare"
+    "id" : "one-26",
+    "text" : "Other text to compare"
   }]
 }
 ```
