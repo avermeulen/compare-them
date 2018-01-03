@@ -73,3 +73,4 @@ It returns something like :
 }
 ```
 
+Once the API it working think about creating an UI that use https://diff2html.xyz/
