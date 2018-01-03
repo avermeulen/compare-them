@@ -65,9 +65,11 @@ It returns something like :
 
 ```json
 {
-  baseTextId : "",
-  mostSimilarTextId : "",
-  similarityRating : 0.670
+  "baseTextId" : "",
+  "mostSimilarTextId" : "",
+  "baseText" : "The base text",
+  "mostSimilarText" : "",
+  "similarityRating" : 0.670
 }
 ```
 
