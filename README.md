@@ -1,19 +1,19 @@
 # compare-them
 
-An API that checks how similar two string are
+A simple API that checks how similar two string are.
 
 The API takes parameter like this
 
 ```json
 
 {
-  textOne : {
-    id : "",
-    text : "The text to compare"
+  "textOne" : {
+    "id" : "",
+    "text" : "The text to compare"
   },
-  textTwo{
-    id : "",
-    text : "The text to compare"
+  "textTwo" : {
+    "id" : "",
+    "text" : "The text to compare"
   }
 }
 
@@ -23,7 +23,7 @@ It returns :
 
 ```json
 {
-  similarity : 0.670
+  "similarity" : 0.670
 }
 ```
 
