@@ -1,0 +1,27 @@
+{
+  "name": "compare-them",
+  "version": "1.0.0",
+  "description": "A simple API that checks how similar two string are.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avermeulen/compare-them.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avermeulen/compare-them/issues"
+  },
+  "homepage": "https://github.com/avermeulen/compare-them#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "string-similarity": "^1.2.0"
+  },
+  "devDependencies": {
+    "supertest": "^3.0.0"
+  }
+}

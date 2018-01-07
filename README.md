@@ -29,6 +29,19 @@ It returns :
 
 The more similar two pieces of text is the the closer the similarityRating number is to 1.
 
+## Project setup
+
+To run this project do:
+
+```
+git clone https://github.com/avermeulen/compare-them
+npm install
+
+nodemon
+// or
+node index.js
+```
+
 ## Module to use
 
 https://www.npmjs.com/package/string-similarity
@@ -37,7 +50,9 @@ https://www.npmjs.com/package/string-similarity
 
 POST endpoint `api/compare`
 
-Call the endpoint using POSTMAN.
+~~Call the endpoint using POSTMAN.~~
+
+Using supertest with mocha works very well for testing.
 
 ## Think about
 
